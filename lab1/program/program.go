@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func main()  {
+func main() {
 	data, err := os.ReadFile("./lab1/key.txt")
 	if err != nil {
 		log.Fatal(err)
