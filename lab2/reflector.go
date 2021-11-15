@@ -43,8 +43,8 @@ func generateReflector() Reflector {
 		r.mapping[arr[i]] = arr[i+1]
 	}
 
-	for k, v := range r.mapping {
-		r.mapping[v] = k
+	for index, v := range r.mapping {
+		r.mapping[v] = index
 	}
 
 	return r
