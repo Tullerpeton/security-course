@@ -1,6 +1,6 @@
 # Project
-key.txt
 .idea
+.DS_Store
 
 # Binaries for programs and plugins
 *.exe

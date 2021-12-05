@@ -9,9 +9,9 @@ import (
 )
 
 const (
-	Length     = 256
-	RotorCount = 3
-	Settings   = "settings.txt"
+	Length      = 256
+	RotorCount  = 3
+	Settings    = "settings.txt"
 	HelpMessage = "enigma input_file output_file [-n]"
 )
 
